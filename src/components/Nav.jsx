@@ -1,6 +1,9 @@
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import { NavDropdown, Dropdown, Button, ButtonGroup } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+
 
 export default function NavBar() {
 
@@ -9,17 +12,36 @@ export default function NavBar() {
     <Navbar className='navbar' fixed='top' expand='lg'>
         <Container fluid style={{ paddingLeft: 0 }}>
           <Nav className="me-auto">
-            {/* <Nav.Link className='link-name' as={Link} to='/' onClick={scrollToTop}>ENHANCE MY NATURAL BEAUTY</Nav.Link> */}
-            <Nav.Link>ENHANCE MY <br/>NATURAL BEAUTY</Nav.Link>
+            <Nav.Link as={Link} to='/'>ENHANCE MY <br/>NATURAL BEAUTY</Nav.Link>
           </Nav>
           <Nav className='nav-links'>
-            <Nav.Link>Home</Nav.Link>
-            <Nav.Link>Salon</Nav.Link>
-            <Nav.Link>Treatments</Nav.Link>
-            <Nav.Link>Prices</Nav.Link>
-            <Nav.Link>Offers &amp; Packages</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
-            <Nav.Link>Book Online</Nav.Link>
+            <Nav.Link as={Link} to='/'>Home</Nav.Link>
+            <Nav.Link as={Link} to='/salon'>Salon</Nav.Link>
+            
+            <NavDropdown title="Treatments" id="treatments-dropdown">
+            {/* <NavDropdown title="Chemical Peels" id="chemical-peels-dropdown"> */}
+            <Dropdown as={ButtonGroup}>
+      <Button variant="none" as={Link} to='/treatments/chemical-peels'>Chemical Peels</Button>
+            <Dropdown.Toggle split variant="none" id="dropdown-split-basic" />
+
+              
+              <Dropdown.Menu>
+              <Dropdown.Item>Infini BioAge Peel</Dropdown.Item>
+              <Dropdown.Item>Stayve Seanery Peel</Dropdown.Item>
+              </Dropdown.Menu>
+        {/* </NavDropdown> */}
+        </Dropdown>
+        <NavDropdown.Item>Microneedling</NavDropdown.Item>
+        <NavDropdown.Item>Skin Boosters</NavDropdown.Item>
+        <NavDropdown.Item>Fat dissolving</NavDropdown.Item>
+        <NavDropdown.Item>Vitamin Shots</NavDropdown.Item>
+        <NavDropdown.Item>Additional Treatments</NavDropdown.Item>
+        
+      </NavDropdown>
+            <Nav.Link as={Link} to='/prices'>Prices</Nav.Link>
+            <Nav.Link as={Link} to='offers-packages'>Offers &amp; Packages</Nav.Link>
+            <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
+            <Nav.Link as={Link} to='/book'>Book Online</Nav.Link>
       
           </Nav>
           </Container>
