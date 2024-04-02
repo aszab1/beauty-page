@@ -31,11 +31,11 @@ export default function NavBar() {
               </Dropdown.Menu>
         {/* </NavDropdown> */}
         </Dropdown>
-        <NavDropdown.Item>Microneedling</NavDropdown.Item>
-        <NavDropdown.Item>Skin Boosters</NavDropdown.Item>
-        <NavDropdown.Item>Fat dissolving</NavDropdown.Item>
-        <NavDropdown.Item>Vitamin Shots</NavDropdown.Item>
-        <NavDropdown.Item>Additional Treatments</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/microneedling'>Microneedling</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/skin-boosters'>Skin Boosters</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/fat-dissolving'>Fat dissolving</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/vitamin-shots'>Vitamin Shots</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/additional-treatments'>Additional Treatments</NavDropdown.Item>
         
       </NavDropdown>
             <Nav.Link as={Link} to='/prices'>Prices</Nav.Link>

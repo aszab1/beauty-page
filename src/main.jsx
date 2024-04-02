@@ -9,6 +9,11 @@ import Contact from './components/Contact.jsx'
 import Book from './components/Book.jsx'
 import Treatments from './components/Treatments.jsx'
 import ChemicalPeels from './components/ChemicalPeels.jsx'
+import Microneedling from './components/Microneedling.jsx'
+import SkinBoosters from './components/SkinBoosters.jsx'
+import FatDissolving from './components/FatDissolving.jsx'
+import VitaminShots from './components/VitaminShots.jsx'
+import AddTreatments from './components/AddTreatments.jsx'
 
 import './index.css'
 // import './styles/main.scss'
@@ -46,6 +51,26 @@ const router = createBrowserRouter([
       {
         path: '/treatments/chemical-peels',
         element: <ChemicalPeels />,
+      },
+      {
+        path: '/microneedling',
+        element: <Microneedling />,
+      },
+      {
+        path: '/skin-boosters',
+        element: <SkinBoosters />,
+      },
+      {
+        path: '/fat-dissolving',
+        element: <FatDissolving />,
+      },
+      {
+        path: '/vitamin-shots',
+        element: <VitaminShots />,
+      },
+      {
+        path: '/additional-treatments',
+        element: <AddTreatments />,
       },
     ]
   }
