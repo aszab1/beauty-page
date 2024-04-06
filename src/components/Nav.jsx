@@ -41,7 +41,7 @@ export default function NavBar() {
             <Nav.Link as={Link} to='/prices'>Prices</Nav.Link>
             <Nav.Link as={Link} to='offers-packages'>Offers &amp; Packages</Nav.Link>
             <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
-            <Nav.Link as={Link} to='/book'>Book Online</Nav.Link>
+            
       
           </Nav>
           </Container>

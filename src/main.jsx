@@ -6,7 +6,6 @@ import Salon from './components/Salon.jsx'
 import Prices from './components/Prices.jsx'
 import OffersPackages from './components/OffersPackages.jsx'
 import Contact from './components/Contact.jsx'
-import Book from './components/Book.jsx'
 import Treatments from './components/Treatments.jsx'
 import ChemicalPeels from './components/ChemicalPeels.jsx'
 import Microneedling from './components/Microneedling.jsx'
@@ -39,10 +38,6 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
-      },
-      {
-        path: '/book',
-        element: <Book />,
       },
       {
         path: '/treatments',
