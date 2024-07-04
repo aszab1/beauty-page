@@ -1,9 +1,23 @@
 
-export default function Contact(){
+import Form from "./Form"
 
-  return(
+
+
+export default function Contact (){
+  return (
     <>
-    <h1>Contact Dalila</h1>
-    </>
-  )
-}
+    <div>mobile nr, email</div>
+
+      <h4 className="contact-h4">Get in Touch</h4>
+  <div className="contact-container">
+    <div className="contact-text">
+      <p>I&apos;m always on the lookout for exciting opportunities and collaborations.</p> 
+    </div>
+  
+    <div className="contact-form">
+      <Form />
+    </div>
+  </div>
+</>
+
+)}
