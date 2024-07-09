@@ -15,7 +15,7 @@ import VitaminShots from './components/VitaminShots.jsx'
 import AddTreatments from './components/AddTreatments.jsx'
 
 import './index.css'
-// import './styles/main.scss'
+import './styles/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const router = createBrowserRouter([

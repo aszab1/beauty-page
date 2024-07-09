@@ -3,8 +3,10 @@ import { useState } from 'react'
 
 const Form = () => {
   const [formData, setFormData] = useState({
-    name: '',
+    first_name: '',
+    last_name: '',
     email: '',
+    mobile: '',
     message: ''
   })
   const [response, setResponse] = useState(null)
@@ -21,8 +23,10 @@ const Form = () => {
     const userId = import.meta.env.VITE_USER_ID
 
     const templateParams = {
-      name: formData.name,
+      first_name: formData.first_name,
+      last_name: formData.last_name,
       email: formData.email,
+      mobile: formData.mobile,
       message: formData.message
     }
 
@@ -31,7 +35,7 @@ const Form = () => {
         console.log('Email sent successfully:', response)
         setResponse({ success: true, data: { message: "Message successfully sent!" } })
         // Reset form data
-        setFormData({ name: '', email: '', message: ''})
+        setFormData({ first_name: '', last_name: '', email: '', mobile: '', message: ''})
       })
       .catch((error) => {
         console.log('Failed to send email', error)
@@ -43,10 +47,20 @@ const Form = () => {
     <div className='form'>
       <form onSubmit={handleSubmit}>
         <input 
+          className='first_name'
           type='text'
-          name='name'
-          placeholder='Name *'
-          value={formData.name}
+          name='first_name'
+          placeholder='First Name'
+          value={formData.first_name}
+          onChange={handleChange}
+          required
+        />
+        <input 
+          className='last_name'
+          type='text'
+          name='last_name'
+          placeholder='Last Name'
+          value={formData.last_name}
           onChange={handleChange}
           required
         />
@@ -54,20 +68,30 @@ const Form = () => {
           className='email'
           type='email'
           name='email'
-          placeholder='Email *'
+          placeholder='Email Address'
           value={formData.email}
           onChange={handleChange}
+          required
+        />
+        <input 
+          className='mobile'
+          type='tel'
+          name='mobile'
+          placeholder='Mobile Number'
+          value={formData.mobile}
+          onChange={handleChange}
+          pattern='^07\d{9}$'
           required
         />
         <textarea 
           name='message'
           className='textarea'
-          placeholder='Message'
+          placeholder='Your Message'
           value={formData.message}
           onChange={handleChange}
           required
         />
-        <button className='btn' type="submit">Submit</button>
+        <button className='btn' type="submit">SUBMIT</button>
         {response && (
           <p className='danger bold mt-4'>{response.data.message}</p> 
         )}

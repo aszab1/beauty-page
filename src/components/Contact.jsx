@@ -6,18 +6,22 @@ import Form from "./Form"
 export default function Contact (){
   return (
     <>
-    <div>mobile nr, email</div>
+    <div className="contact">
+    
 
-      <h4 className="contact-h4">Get in Touch</h4>
+      <h2 className="contact-h2">Contact</h2>
   <div className="contact-container">
     <div className="contact-text">
-      <p>I&apos;m always on the lookout for exciting opportunities and collaborations.</p> 
+      <p>To make an enquiry, please fill out your details and send them via the contact form below. <br/> I will be in touch within 24 hours to answer your question, or book you in for your appointment.</p> 
     </div>
   
     <div className="contact-form">
+      <p className="form-text">CONTACT FORM</p>
       <Form />
     </div>
+    </div>
   </div>
+ 
 </>
 
 )}
