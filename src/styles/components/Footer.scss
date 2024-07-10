@@ -1,0 +1,54 @@
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  
+  // color: #4a4a4a; 
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  height: 50px;
+}
+
+.footer-p {
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.footer-p2 {
+  text-align: center;
+  margin: 1em 0 1em 0.4em;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adrienn {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+
+.info-footer {
+  height: 250px;
+  background-color: #d2caca;
+  display:grid;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.salon-info {
+  margin-top: 30px;
+}
+
+.mob-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mob-p {
+  padding: 10px;
+}
