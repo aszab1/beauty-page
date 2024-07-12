@@ -38,7 +38,7 @@ export default function NavBar() {
         <NavDropdown.Item as={Link} to='/additional-treatments'>Additional Treatments</NavDropdown.Item>
         
       </NavDropdown>
-            <Nav.Link as={Link} to='/prices'>Prices</Nav.Link>
+            <Nav.Link as={Link} to='/prices'>Price List</Nav.Link>
             <Nav.Link as={Link} to='offers-packages'>Offers &amp; Packages</Nav.Link>
             <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
             

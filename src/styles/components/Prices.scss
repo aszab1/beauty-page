@@ -1,0 +1,39 @@
+
+.container {
+  margin: 10em;
+  width: 100%;
+}
+
+.container table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-left: 10em;
+  
+}
+
+.container th,
+.container td {
+  text-align: left; 
+}
+
+td.product.css-0,
+td.price.css-0 {
+  padding: 15px 10px 15px 10px;
+}
+
+td.price.css-0 {
+  text-align: left;
+  width: 5px;
+}
+
+th.item-name.css-0 {
+  background-color: #c5c0c0;
+  padding: 10px;
+}
+// .container tr:nth-child(even) {
+//   background-color: #f9f9f9;
+// }
+
+// .container tr:hover {
+//   background-color: #ddd;
+// }

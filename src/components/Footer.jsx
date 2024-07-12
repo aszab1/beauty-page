@@ -6,9 +6,11 @@ export default function Footer() {
         <p className="mob-p">info@email.com</p>
       </div>
       <div className="info-footer">
-        <h5 className="salon-info">SALON INFORMATION </h5>
+        <h5 className="salon-info-header">SALON INFORMATION </h5>
+        <div className="salon-info">
         <p>12 Hello Street <br />Crawley<br />RB23 2BG</p>
         
+        </div>
         </div>
       <div className="footer-div">
         <p className="footer-p">&copy; Enhance My Natural Beauty •</p>

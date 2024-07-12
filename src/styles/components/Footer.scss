@@ -39,8 +39,13 @@
   padding: 40px;
 }
 
-.salon-info {
-  margin-top: 30px;
+.salon-info-header {
+  margin-top: 20px;
+}
+.salon-info{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .mob-email {
@@ -51,4 +56,5 @@
 
 .mob-p {
   padding: 10px;
+  margin: 0;
 }
