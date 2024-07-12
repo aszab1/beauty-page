@@ -44,6 +44,8 @@ export default function Prices(){
   </Tbody>
 </Table>
 </TableContainer>
+<div className='packages'>**Packages available for a course of treatments, please discuss with your therapist.**
+</div>
 </>
   )
 }
