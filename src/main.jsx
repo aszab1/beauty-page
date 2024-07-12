@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         element: <Salon />,
       },
       {
-        path: '/prices',
+        path: '/price-list',
         element: <Prices />,
       },
       {

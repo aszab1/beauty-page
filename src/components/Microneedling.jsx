@@ -20,8 +20,8 @@ export default function Microneedling(){
 
     {formattedProducts.map((product, index) => (
       <div key={index} className="product-info">
-      <h4>Microneedling {product.product}</h4>
-        <p>{product.description}</p>
+      <h5>Microneedling {product.product}</h5>
+      {product.description && <p dangerouslySetInnerHTML={{ __html: product.description }}></p>}
     </div>
     ))}
     
