@@ -2,7 +2,6 @@ import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import App from './App.jsx'
-import Salon from './components/Salon.jsx'
 import Prices from './components/Prices.jsx'
 import OffersPackages from './components/OffersPackages.jsx'
 import Contact from './components/Contact.jsx'
@@ -12,7 +11,8 @@ import Microneedling from './components/Microneedling.jsx'
 import SkinBoosters from './components/SkinBoosters.jsx'
 import FatDissolving from './components/FatDissolving.jsx'
 import VitaminShots from './components/VitaminShots.jsx'
-import AddTreatments from './components/AddTreatments.jsx'
+import JellyMasks from './components/JellyMasks.jsx'
+import LED from './components/LED.jsx'
 
 import './index.css'
 import './styles/main.scss'
@@ -23,10 +23,6 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      {
-        path: '/salon',
-        element: <Salon />,
-      },
       {
         path: '/price-list',
         element: <Prices />,
@@ -64,8 +60,12 @@ const router = createBrowserRouter([
         element: <VitaminShots />,
       },
       {
-        path: '/additional-treatments',
-        element: <AddTreatments />,
+        path: '/jelly-masks',
+        element: <JellyMasks />,
+      },
+      {
+        path: '/LED-light-therapy',
+        element: <LED />,
       },
     ]
   }

@@ -16,7 +16,6 @@ export default function NavBar() {
           </Nav>
           <Nav className='nav-links'>
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
-            <Nav.Link as={Link} to='/salon'>Salon</Nav.Link>
             
             <NavDropdown title="Treatments" id="treatments-dropdown">
             {/* <NavDropdown title="Chemical Peels" id="chemical-peels-dropdown"> */}
@@ -35,7 +34,8 @@ export default function NavBar() {
         <NavDropdown.Item as={Link} to='/skin-boosters'>Skin Boosters</NavDropdown.Item>
         <NavDropdown.Item as={Link} to='/fat-dissolving'>Fat dissolving</NavDropdown.Item>
         <NavDropdown.Item as={Link} to='/vitamin-shots'>Vitamin Shots</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to='/additional-treatments'>Additional Treatments</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/jelly-masks'>Hyperboost Jelly Masks</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to='/LED-light-therapy'>LED Light Therapy</NavDropdown.Item>
         
       </NavDropdown>
             <Nav.Link as={Link} to='/price-list'>Price List</Nav.Link>
