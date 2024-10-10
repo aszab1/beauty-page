@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import { NavDropdown, Dropdown, Button, ButtonGroup } from 'react-bootstrap'
+import { Nav, Navbar, NavDropdown, Dropdown, Button, ButtonGroup } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import './Nav'
 
 
 export default function NavBar() {
@@ -10,11 +9,12 @@ export default function NavBar() {
   return (
     <>
     <Navbar className='navbar' fixed='top' expand='lg'>
-        <Container fluid style={{ paddingLeft: 0 }}>
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to='/'>ENHANCE MY <br/>NATURAL BEAUTY</Nav.Link>
+        <Container className='d-flex flex-column' fluid>
+          <Nav className="w-100 justify-content-center">
+            <Nav.Link className='enhance-text' as={Link} to='/'>Enhance My Natural Beauty</Nav.Link>
           </Nav>
-          <Nav className='nav-links'>
+          <div className='divider'></div>
+          <Nav className="nav-links w-100 justify-content-evenly">
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
             
             <NavDropdown title="Treatments" id="treatments-dropdown">

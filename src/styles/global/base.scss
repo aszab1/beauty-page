@@ -6,14 +6,17 @@ body {
   margin: 0;
 }
 
-// main {
-//   font-size: 16px;
-//   font-family: "Inter", sans-serif;
-//   letter-spacing: 0.5px;
-//   color: #4a4a4a;
-//   font-weight: 500;
+main {
+  font-size: 17px;
+  // font-family: "Inter", sans-serif;
+  color: #4a4a4a;
+  font-optical-sizing: auto;
+  color: #4a4a4a;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  font-weight: 500;
   
-// }
+}
 
 #root {
   display: flex;

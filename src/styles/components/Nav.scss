@@ -1,0 +1,40 @@
+.navbar{
+  // background-color:#E8E8E8;
+  background-color: rgba(224, 224, 224, 0.7);
+  border-bottom: 2px solid #8d2bc0;
+  margin: 0;
+  padding: 0;
+}
+
+div.d-flex.flex-column {
+  padding: 0;
+}
+
+.nav-links{
+  margin: 0.5em;
+}
+
+a.enhance-text {
+  color: #8d2bc0;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+a.enhance-text:hover {
+  color: #6a04a1;
+  cursor: pointer;
+}
+
+a.enhance-text.nav-link{
+  padding: 1em 0;
+}
+
+.divider {
+  height: 2px;
+  background-color: #8d2bc0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
