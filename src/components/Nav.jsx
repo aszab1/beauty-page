@@ -10,9 +10,13 @@ export default function NavBar() {
     <>
     <Navbar className='navbar' fixed='top' expand='lg'>
         <Container className='d-flex flex-column' fluid>
+        
+          <div className="nav-info">
+          <p className="email">info@email.com</p>
           <Nav className="w-100 justify-content-center">
-            <Nav.Link className='enhance-text' as={Link} to='/'>Enhance My Natural Beauty</Nav.Link>
+            <Nav.Link className="enhance-text" as={Link} to='/'>Enhance My Natural Beauty</Nav.Link>
           </Nav>
+          <p className="mobile">07772519590</p></div>
           <div className='divider'></div>
           <Nav className="nav-links w-100 justify-content-evenly">
             <Nav.Link as={Link} to='/'>Home</Nav.Link>

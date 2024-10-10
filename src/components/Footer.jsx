@@ -1,14 +1,10 @@
 export default function Footer() {
   return(
     <footer className="footer">
-      <div className="mob-email">
-        <p className="mob-p">07658672368</p>
-        <p className="mob-p">info@email.com</p>
-      </div>
       <div className="info-footer">
         <h5 className="salon-info-header">SALON INFORMATION </h5>
         <div className="salon-info">
-        <p>12 Hello Street <br />Crawley<br />RB23 2BG</p>
+        <p>The Beauty Loft <br /> BodyWise Gym<br />16 Church Street <br />Horsham <br />RH12 3QW</p>
         
         </div>
         </div>
