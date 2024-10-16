@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import { Nav, Navbar, NavDropdown, Dropdown, Button, ButtonGroup } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Nav'
+import { Icon } from '@iconify/react'
 
 
 export default function NavBar() {
@@ -12,14 +13,21 @@ export default function NavBar() {
         <Container className='d-flex flex-column' fluid>
         
           <div className="nav-info">
-          <p className="email">info@email.com</p>
+            <div className='email-div'>
+            <Icon className='email-icon' icon="ic:outline-email"></Icon>
+          <a className="email" href='mailto:info@email.com' >info@email.com</a>
+          </div>
           <Nav className="w-100 justify-content-center">
             <Nav.Link className="enhance-text" as={Link} to='/'>Enhance My Natural Beauty</Nav.Link>
           </Nav>
-          <p className="mobile">07772519590</p></div>
+          <div className='mobile-div'>
+          <Icon className="phone-icon" icon="line-md:phone"></Icon>
+          <a className="mobile" href="tel:+447772519590">07772519590</a>
+          </div>
+          </div>
           <div className='divider'></div>
           <Nav className="nav-links w-100 justify-content-evenly">
-            <Nav.Link as={Link} to='/'>Home</Nav.Link>
+            <Nav.Link as={Link} to='/'>HOME</Nav.Link>
             
             <NavDropdown title="Treatments" id="treatments-dropdown">
             {/* <NavDropdown title="Chemical Peels" id="chemical-peels-dropdown"> */}

@@ -1,5 +1,10 @@
 .navbar{
   // background-color:#E8E8E8;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  font-weight: 600;
   background-color: rgba(224, 224, 224, 0.7);
   // background-color: rgba(33, 37, 41, 0.2);
   border-bottom: 1px solid #8d2bc0;
@@ -56,4 +61,22 @@ a.enhance-text.nav-link{
   margin: 0;
   font-size: 1em;
   align-self: center;
+  text-decoration: none;
+  color: inherit;
 }
+
+.email:hover, .mobile:hover {
+  color: #8d2bc0;
+}
+
+.email-div, .mobile-div {
+  display: flex;
+  align-items: center;
+  margin: 0 5em;
+}
+
+.email-icon, .phone-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
