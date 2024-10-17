@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <Treatments />,
       },
       {
-        path: '/treatments/chemical-peels',
+        path: '/chemical-peels',
         element: <ChemicalPeels />,
       },
       {

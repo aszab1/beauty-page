@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+#treatments-dropdown.dropdown-toggle::after {
+  display: none !important;
+}
+
 div.d-flex.flex-column {
   padding: 0;
 }
@@ -51,10 +55,10 @@ a.enhance-text.nav-link{
 
 .nav-info {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 1em;
+  padding: 0;
 }
 
 .email, .mobile {
@@ -76,7 +80,7 @@ a.enhance-text.nav-link{
 }
 
 .email-icon, .phone-icon {
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 8px;
 }
 
