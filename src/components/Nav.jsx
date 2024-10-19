@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -8,12 +8,28 @@ import { Icon } from '@iconify/react'
 
 export default function NavBar() {
 
-  const [showSkinBoosters, setShowskinBoosters ] = useState(false)
+  const [showSkinBoosters, setShowSkinBoosters ] = useState(false)
 
   const toggleSkinBoosters = (e) => {
     e.stopPropagation() // Prevent dropdown from closing
-    setShowskinBoosters(!showSkinBoosters)
+    setShowSkinBoosters(!showSkinBoosters)
   }
+
+  useEffect(() => {
+    const handleClickOutside = () => {
+      // Close the skin booster dropdown if a click happens outside the accordion list
+      setShowSkinBoosters(false)
+    }
+
+    // Add event listener to detect clicks outside the component
+    document.addEventListener('click', handleClickOutside)
+
+    return () => {
+      // Cleanup the event listener when the component unmounts
+      document.removeEventListener('click', handleClickOutside)
+    }
+  }, [])
+
 
   return (
     <>

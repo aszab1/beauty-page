@@ -1,3 +1,30 @@
 .home-h {
   margin-top: 12em;
 }
+
+.salon {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10em 10em 5em 5em; 
+}
+
+.dee {
+  width: 450px;
+  height: auto;
+}
+
+.intro-text {
+  flex-direction: column;
+  margin: 0 4em;
+}
+
+.beauty {
+  margin-bottom: 2em;
+}
