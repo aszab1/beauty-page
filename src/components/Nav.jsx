@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useLocation } from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
-import { Nav, NavDropdown } from 'react-bootstrap'
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Nav'
 import { Icon } from '@iconify/react'
@@ -42,16 +42,14 @@ export default function NavBar() {
   return (
     <>
 
-      <motion.Navbar
+      <motion.div
         key={location.pathname}
-        className='navbar'
-        fixed='top'
-        expand='lg'
         initial='hidden'
         animate='visible'
         variants={navbarAnimation}
         style={{ position: 'absolute', top: 0, width: '100%' }}
       >
+        <Navbar className='navbar' fixed='top' expand='lg'>
         <Container className='d-flex flex-column' fluid>
 
           <div className="nav-info">
@@ -106,8 +104,9 @@ export default function NavBar() {
 
 
           </Nav>
-        </Container>
-      </motion.Navbar>
+          </Container>
+  </Navbar>
+</motion.div>
     </>
   )
 }
