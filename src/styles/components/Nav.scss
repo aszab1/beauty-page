@@ -1,11 +1,13 @@
 .navbar{
   // background-color:#E8E8E8;
+  // position: absolute;
+  // top: 0;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   letter-spacing: 0.05em;
   line-height: 1.4;
   font-weight: 600;
-  background-color: rgba(224, 224, 224, 0.8);
+  background-color: rgba(224, 224, 224, 0.7);
   // background-color: rgba(33, 37, 41, 0.2);
   border-bottom: 1px solid #8d2bc0;
   margin: 0;
@@ -22,6 +24,9 @@ div.d-flex.flex-column {
 
 .nav-links{
   margin: 0.5em;
+  a.nav-link{
+    color: #212529;
+  }
 }
 
 a.enhance-text {
