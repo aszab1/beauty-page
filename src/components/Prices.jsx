@@ -14,7 +14,7 @@ export default function Prices(){
 
   return(
     <>
-{/* <div>Price List</div> */}
+
 
   <TableContainer className='container'>
 <Table className='table' variant='striped'>

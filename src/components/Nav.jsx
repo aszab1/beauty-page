@@ -101,6 +101,7 @@ export default function NavBar() {
             <Nav.Link as={Link} to='/price-list'>PRICE LIST</Nav.Link>
             <Nav.Link as={Link} to='offers-packages'>OFFERS &amp; PACKAGES</Nav.Link>
             <Nav.Link as={Link} to='/contact'>CONTACT</Nav.Link>
+            <Icon className='insta' icon='mdi:instagram' onClick={() => window.open('https://www.instagram.com/enhance_my_naturalbeauty?igsh=MXc0cjB4d3AyazVtZg==')}></Icon>
 
 
           </Nav>
