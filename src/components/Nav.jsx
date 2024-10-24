@@ -56,7 +56,7 @@ export default function NavBar() {
             <Nav className="w-100 justify-content-center">
               <Nav.Link className="enhance-text" as={Link} to='/'>Enhance My Natural Beauty</Nav.Link>
             </Nav>
-            <div>
+            {/* <div>
               <section className='email-div'>
                 <Icon className='email-icon' icon="ic:outline-email"></Icon>
                 <a className="email" href='mailto:info@email.com' >info@email.com</a>
@@ -65,7 +65,7 @@ export default function NavBar() {
                 <Icon className="phone-icon" icon="line-md:phone"></Icon>
                 <a className="mobile" href="tel:+447772519590">07772519590</a>
               </section>
-            </div>
+            </div> */}
           </div>
           <div className='divider'></div>
           <Nav className="nav-links w-100 justify-content-evenly">

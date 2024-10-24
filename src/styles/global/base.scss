@@ -30,6 +30,31 @@ main {
   // background-color: #fbfafa;
 }
 
+.up-button {
+  width: 30px;
+  height: 55px;
+  border: none;
+  background-color: inherit;
+  color: #334459;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  position: fixed;
+  right: 40px;  
+  z-index: 1000;  /* Ensure it appears on top of other content */
+  transition: all 0.3s ease;
+}
+
+.footer-stopper {
+  height: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
 // @media only screen and (max-width: 450px) {
 //   main {
 //     font-size: 14px;
