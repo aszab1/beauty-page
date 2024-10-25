@@ -1,13 +1,21 @@
+.mask-section{
+  display: flex;
+  flex-direction: row;
+  margin: 14em 5em 5em;
+}
+
 .jelly-info {
-  margin-top: 10em;
+  margin: 5em auto;
+  display: flex;
+  flex-direction: column;
   width: 45%;
-  text-align: left;
-  margin-left: 3em; 
-  margin-bottom: 5em;
+  text-align: center;
+  
 }
 
 .jelly-h3 {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .jellies {
@@ -15,4 +23,9 @@
   padding: 10px;
   margin-left: 2em;
   width: 90%;
+}
+
+.mask{
+  width: 500px;
+  height: auto;
 }

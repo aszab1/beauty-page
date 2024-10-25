@@ -32,7 +32,6 @@ export default function Prices() {
   return (
     <>
 
-
       <TableContainer className='container'>
         <motion.div ref={tableRef}
         initial="hidden"
