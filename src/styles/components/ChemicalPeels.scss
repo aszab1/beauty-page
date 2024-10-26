@@ -1,4 +1,29 @@
 .peel-div{
-  margin-top: 10em;
+  margin: 15em 5em;
+  text-align: justify;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.peel {
+  width: 700px;
+  height: auto;
+}
+
+.peel-p{
+  padding: 10px 0;
+}
+
+.infinity{
+  margin: 8em 4em;
+  text-align: left;
+}
+
+.h5-infinity{
+  padding: 10px 0;
+  font-weight: bold;
 }
 

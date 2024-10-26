@@ -17,13 +17,6 @@ export default function Footer() {
             <a className="mobile" href="tel:+447772519590">07772519590</a>
           </section>
         </div>
-        <div className="social-links">
-          <Icon
-            className='insta'
-            icon='mdi:instagram'
-            onClick={() => window.open('https://www.instagram.com/enhance_my_naturalbeauty?igsh=MXc0cjB4d3AyazVtZg==')}
-          />
-        </div>
       </div>
       <div className="footer-div">
         <p className="footer-p">&copy; Enhance My Natural Beauty •</p>
