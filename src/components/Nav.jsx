@@ -47,7 +47,7 @@ export default function NavBar() {
         initial='hidden'
         animate='visible'
         variants={navbarAnimation}
-        style={{ position: 'absolute', top: 0, width: '100%' }}
+        style={{ position: 'absolute', top: 0, width: '100%', zIndex: 10 }}
       >
         <Navbar className='navbar' fixed='top' expand='lg'>
         <Container className='d-flex flex-column' fluid>
