@@ -1,0 +1,67 @@
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+.svg-left,
+.svg-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 25vw; 
+  height: 100vh;
+  // z-index: 1; 
+  pointer-events: none;
+}
+
+.svg-left {
+  left: 0;
+}
+
+.svg-right {
+  right: 0;
+}
+
+// .lily {
+//   width: 300px;
+//   height: auto;
+//   margin-top: 10em;
+//   position: absolute;
+//   left: -5%;
+//   transform: rotate(10deg);
+//   z-index: 1000;
+//   overflow: hidden;
+
+// }
+
+.lily-right {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  right: -26%;
+  transform: rotate(-60deg);
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.lily-left {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  left: -26%;
+  transform: translateY(-50%) rotate(100deg);
+  top: 80%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+
+
+
+

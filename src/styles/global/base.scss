@@ -7,6 +7,8 @@ body {
 }
 
 main {
+  position: relative;
+  z-index: 1;
   font-size: 17px;
   font-family: "Lora", serif;
   color: #4a4a4a;

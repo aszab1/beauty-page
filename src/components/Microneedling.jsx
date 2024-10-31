@@ -1,6 +1,7 @@
 import { products } from "./Products"
 import microneeding from '../assets/images/microneedling.jpg'
 
+
 export default function Microneedling(){
   
   const microProducts = products.filter(product => product.name === 'MICRONEEDLING' && product.description)

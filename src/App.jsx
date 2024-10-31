@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import { useState, useEffect } from 'react'
 import { Icon } from '@iconify/react/dist/iconify.js'
+import Background from './components/BackGround1'
 
 function App() {
   const location = useLocation()
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
     <ScrollToTop />
+    <Background />
     <div>
       <NavBar />
       <main>
