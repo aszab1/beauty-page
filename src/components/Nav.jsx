@@ -12,6 +12,8 @@ export default function NavBar() {
 
   const [showSkinBoosters, setShowSkinBoosters] = useState(false)
   const location = useLocation()
+  const [ scrollToFace, setScrollToFace ] = useState(false)
+  const [ scrollToEyes, setScrollToEyes ] = useState(false)
 
   const toggleSkinBoosters = (e) => {
     e.stopPropagation() // Prevent dropdown from closing
@@ -37,6 +39,25 @@ export default function NavBar() {
     hidden: { y: -100, opacity: 0 },
     visible: { y: 0, opacity: 1, transition: { delay: 0.5, duration: 1 } },
   }
+  
+  useEffect(() => {
+    if (location.pathname === '/skin-boosters') {
+      if (scrollToFace) {
+        const faceSection = document.getElementById('face')
+        if (faceSection) {
+          faceSection.scrollIntoView({ behavior: 'smooth'})
+          setScrollToFace(false)
+        }
+      } else if (scrollToEyes) {
+        const eyeSection = document.getElementById('eyes')
+        if (eyeSection) {
+          eyeSection.scrollIntoView({ behavior: 'smooth'})
+          setScrollToEyes(false)
+        }
+      } 
+    }
+  }, [location, scrollToFace, scrollToEyes])
+
 
 
   return (
@@ -88,8 +109,8 @@ export default function NavBar() {
               </NavDropdown.Item>
               {showSkinBoosters && (
                 <div style={{ marginLeft: '0.5rem' }}> {/* Indent the accordion content */}
-                  <NavDropdown.Item as={Link} to='/skin-boosters'>Face</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/skin-boosters'>Eyes</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/skin-boosters' onClick={() => setScrollToFace(true)}>Face</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/skin-boosters' onClick={() => setScrollToEyes(true)}>Eyes</NavDropdown.Item>
                 </div>
               )}
               <NavDropdown.Item as={Link} to='/fat-dissolving'>Fat dissolving</NavDropdown.Item>

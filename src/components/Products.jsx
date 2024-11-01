@@ -9,15 +9,15 @@ export const products = [
   { name: 'MICRONEEDLING', product: 'With Bella Dama Revital Lifting for Face and Neck', price: '£185' },
   { name: 'MICRONEEDLING', product: 'With Bella Dama BellaFace Plus Skin Rejuvenation', price: '£185' },
 
-  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'PROFHILO H + L', price: '£280', description: 'Profhilo is an injectable anti-ageing treatment made from hyaluronic acid for skin that is losing its elasticity and firmness with age. It can be used on the face, neck, décolleté, arms, hands and knees, or any part of your body where the skin shows visible signs of ageing.' },
-  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'PROFHILO Haenkenium Antioxidant Cream 50 ml', price: '£50', description: 'This is so much more than just a moisturiser - this is a topical cream that provides immediate skin hydration, natural antioxidant protection and long term accumulative skin rejuvenation results.<br/>Combining a patented Hyaluronic Acid with Salvia Haenkei extract, this multitasking complex protects, restores and improves skin cell health within one skincare product.<br/>Recommended to use in conjunction with the Profhilo treatment for optimum and lasting results.' },
-  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'Revs PRO32', price: '£230', description: 'This is an incredible new 64mg skin booster 32mg high molecular weight HA and 32mg low molecular weight HA.<br/>INJECTION POINTS: 5 point injection each side of the face 0.2ml per injection point.<br/>Recommended minimum of 2 sessions booked 4 weeks apart then a top once a year (differs from one person to another based on age and skin’s needs).<br/>You can discuss the above with your therapist during your consultation.Discount available when purchased as a package, ask your therapist' },
-  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'Toskani TKN HA 3', price: '£250', description: 'Toskani TKN HA 3 is an injectable bio-revitaliser composed of 9mg/ml of non-cross linked hyaluronic acid. It has the highest molecular weight in the market (3.000 kDa), that is, the most similar to the skin physiological one. Having a larger molecule, its degradation is slower and its effects last longer providing a filler effect.<br/>Suitable for face, neck, décolleté and hands.' },
-  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'INFINI Premium Aquabooster', price: '£200', description: 'This is an innovative bio-revitalising skin booster which actively promotes revitalisation and rejuvenation.<br/>The uniqueness of the product lies in the use of uniquely stabilised hyaluronic acid chains, which not only ensures immediate rejuvenation an hydration of the skin, but also visible improvement in tension and density.<br/>Aquabooster restores natural volume and creates a smoothing effect by using high concentrations of soft cross-linked hyaluronic acid with a slow metabolic process.<br/>INFINI Aquabooster&apos;s unique formulation of high concentration hyaluronic acid ensures in-depth reconstruction of the skin structure and visible effects after just one treatment.' },
-  { name: 'SKIN BOOSTERS', type: 'EYES', product: 'Dermaren Lumi Eyes', price: '£TBC', description: '' },
-  { name: 'SKIN BOOSTERS', type: 'EYES', product: 'Ami Eyes', price: '£TBC', description: '' },
+  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'PROFHILO H + L', price: '£280'},
+  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'PROFHILO Haenkenium Antioxidant Cream 50 ml', price: '£50'},
+  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'Revs PRO32', price: '£230'},
+  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'Toskani TKN HA 3', price: '£250'},
+  { name: 'SKIN BOOSTERS', type: 'FACE', product: 'INFINI Premium Aquabooster', price: '£200'},
+  { name: 'SKIN BOOSTERS', type: 'EYES', product: 'Dermaren Lumi Eyes', price: '£TBC'},
+  { name: 'SKIN BOOSTERS', type: 'EYES', product: 'Ami Eyes', price: '£TBC'},
 
-  { name: 'CHEMICAL PEEL', product: 'INFINI Premium BioAgePeel (First Session)', price: '£8', description: 'Innovative, medical chemical stimulator based on trichloroacetic, kojic and mandelic acid. Recommended 4 to 6 sessions 2 weeks apart' },
+  { name: 'CHEMICAL PEEL', product: 'INFINI Premium BioAgePeel (First Session)', price: '£8'},
   { name: 'CHEMICAL PEEL', product: 'INFINI Premium BioAgePeel', price: '£45' },
 
   { name: 'HYPERBOOST JELLY MASKS', product: 'Hyaluronic Acid', addinfo: '(the Super Moisturiser)', price: '£15', description: 'Hydrates, aids in retention of moisture, Reduces visible signs of ageing.' },
