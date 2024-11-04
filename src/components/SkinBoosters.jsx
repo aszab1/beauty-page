@@ -15,9 +15,10 @@ export default function SkinBoosters() {
         </div>
       </section>
       <section className='profhilo'>
-        <h3 style={{ padding: 10, fontWeight: '600' }}>Profhilo</h3>
-        <p>Profhilo is a revolutionary injectable treatment designed to rejuvenate and restore skin&apos;s elasticity and firmness using hyaluronic acid, ideal for areas showing signs of aging. It&apos;s versatile and effective on the face, neck, décolleté, arms, hands, knees, or any area where your skin may need a boost.</p>
-        <ul><strong>Injection Points</strong>: 5 point injection per facial side, 0.2ml per injection for targeted rejuvenation.</ul>
+        <h3 style={{ padding: 10, fontWeight: '600', textAlign: 'center' }}>Profhilo</h3>
+        <p>Profhilo is a revolutionary injectable treatment designed to rejuvenate and restore skin&apos;s elasticity and firmness, using a highly concentrated form of hyaluronic acid. This unique formula deeply hydrates the skin, smoothing fine lines and restoring a youthful glow in areas affected by aging.</p>
+        <p> The treatment involves five precise injection points on each side of the face, called Bio Aesthetic Points (BAPs), to ensure even distribution and maximum effectiveness. This technique optimizes product spread, providing a natural-looking lift and all-over rejuvenation.</p>
+        <p> It&apos;s versatility makes it ideal for enhancing the appearance of the face, neck, décolleté, arms, hands, and knees—anywhere your skin could benefit from a revitalizing boost.</p>
         <ul><strong>Treatment Plan</strong>: A minimum of two sessions spaced 4 weeks apart is recommended, with a maintenance session annually. During your consultation, your therapist will work with you to tailor the plan to meet your skin&apos;s unique needs and goals. Discount available when purchased as a package - ask for details.</ul>
       </section>
 

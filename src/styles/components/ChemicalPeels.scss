@@ -10,7 +10,7 @@
 
 .peel {
   width: 700px;
-  height: auto;
+  height: 800px;
 }
 
 .peel-p{
@@ -28,4 +28,28 @@
   padding: 10px 0;
   font-weight: bold;
 }
+
+.treatment-info-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 5em;
+  padding: 15px 25px;
+  // background-color: rgba(250, 240, 213, 0.8);
+  background-color: rgba(243, 237, 233, 0.8);
+  border: 1px solid rgb(254, 243, 250);
+  p {
+    margin: 0;
+  }
+}
+
+.time-icon, .downtime-icon, .results-icon, .lasts-icon  {
+  font-size: 18px;
+  margin: 0 3px 3px 0;
+}
+
+
+
 
