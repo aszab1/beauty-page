@@ -38,12 +38,13 @@ export default function ChemicalPeels() {
           animate={chemPeelInView ? 'visible' : 'hidden'}
           variants={fadeInVariants}
         >
-          <h3 className='peel-p'>Chemical Peels</h3>
+          <h2 className='peel-p'>Chemical Peels</h2>
           <p>Chemical peels are a popular, non-invasive skin treatment designed to rejuvenate and revitalize complexion by removing layers of dull, tired skin, revealing a fresher, more radiant glow. </p>
           <p>These treatments help to improve the appearance of fine lines, wrinkles, acne scars, and pigmentation issues, providing a smoother, more even skin tone.</p>
           <p>Many clients see immediate improvements with minimal downtime, making chemical peels an ideal choice for achieving radiant, youthful-looking skin.</p>
           < TreatmentInfo items={chemPeelInfo}/>
         </motion.div>
+
       </section>
       <motion.section ref={infiniRef}
         className='infinity'

@@ -9,7 +9,7 @@ import {
   Td,
   TableContainer,
 } from '@chakra-ui/react'
-import { products } from "./Products"
+import { products } from '../assets/products'
 import { fadeInVariantsDelay } from '../assets/fadeInVariants'
 
 

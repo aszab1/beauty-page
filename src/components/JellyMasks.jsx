@@ -1,5 +1,5 @@
-import { products } from "./Products"
 import jelly from '../assets/images/jellymask.jpg'
+import { products } from '../assets/products'
 
 export default function JellyMasks(){
 

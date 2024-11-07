@@ -3,8 +3,8 @@ export const products = [
   { name: 'MICRONEEDLING', product: 'With Basic Serum (Hyaluronic Acid, Vitamin C, Vitamin Cocktail)', price: '£120' },
   { name: 'MICRONEEDLING', product: 'Add LED Light Therapy', price: '£25' },
   { name: 'MICRONEEDLING', product: 'Add Hyperboost Jelly Mask', price: '£15' },
-  { name: 'MICRONEEDLING', product: 'With INFINI Premium Meso BTX', price: '£175', description: 'This is a soft lifting complex with hyaluronic acid and Argireline. A Tox without Toxin. <br />An advanced cocktail to combat facial wrinkles and signs of skin ageing. A perfectly balanced combination of hyaluronic acid and argireline prevents the formation of new expressive wrinkles and reduces and stops the deepening of existing wrinkles, giving a spectacular smoothing effect. BTX is an effective stimulator of collagen and elastin synthesis and a stimulator of tissue restructuring. Its main action is muscle hydration of the skin, thanks to which the face regains its youthful contours and appears visibly smoother.' },
-  { name: 'MICRONEEDLING', product: 'With INFINI Premium Meso Whitening Max', price: '£175', description: 'This is an innovative formula designed for skin depigmentation and whitening. Enables healthy glow restoration but also leaves it in perfect tone and condition. <br /> In order to obtain the desired effects, 4-8 sessions recommended every 10-14 days.' },
+  { name: 'MICRONEEDLING', product: 'With INFINI Premium Meso BTX', price: '£175', description: 'This is a soft lifting complex with hyaluronic acid and Argireline. A Tox without Toxin.\n An advanced cocktail to combat facial wrinkles and signs of skin ageing. A perfectly balanced combination of hyaluronic acid and argireline prevents the formation of new expressive wrinkles and reduces and stops the deepening of existing wrinkles, giving a spectacular smoothing effect.\n BTX is an effective stimulator of collagen and elastin synthesis and a stimulator of tissue restructuring. Its main action is muscle hydration of the skin, thanks to which the face regains its youthful contours and appears visibly smoother.' },
+  { name: 'MICRONEEDLING', product: 'With INFINI Premium Meso Whitening Max', price: '£175', description: 'This is an innovative formula designed for skin depigmentation and whitening. Enables healthy glow restoration but also leaves it in perfect tone and condition.\n In order to obtain the desired effects, 4-8 sessions recommended every 10-14 days.' },
   { name: 'MICRONEEDLING', product: 'With Glutanex Glow', price: '£175', description: 'GLUTANEX GLOW is a professional solution for instant brightening, instant tone brightening, pore tightening, and skin regeneration. The combination of Glutathione and PDRN brings up the healthy glow from the inner layers of skin.' },
   { name: 'MICRONEEDLING', product: 'With Bella Dama Revital Lifting for Face and Neck', price: '£185' },
   { name: 'MICRONEEDLING', product: 'With Bella Dama BellaFace Plus Skin Rejuvenation', price: '£185' },
@@ -37,4 +37,6 @@ export const products = [
   { name: 'HYPERBOOST JELLY MASKS', product: 'Collagen', addinfo: '(for ageing, mature, dry and dull skin)', price: '£15', description: 'Reduces fine lines and wrinkles, stimulates skin cells, amplifies Collagen production, firming.' },
 
 ]
+
+export default products
 
