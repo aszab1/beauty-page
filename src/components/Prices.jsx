@@ -10,6 +10,7 @@ import {
   TableContainer,
 } from '@chakra-ui/react'
 import { products } from "./Products"
+import { fadeInVariantsDelay } from '../assets/fadeInVariants'
 
 
 export default function Prices() {
@@ -22,12 +23,6 @@ export default function Prices() {
   
 
 
-  const fadeInVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { delay: 1.8, duration: 1.5, ease: 'easeInOut' } }
-  }
-
-
 
   return (
     <>
@@ -36,7 +31,7 @@ export default function Prices() {
         <motion.div ref={tableRef}
         initial="hidden"
         animate={tableInView ? "visible" : "hidden"}
-        variants={fadeInVariants}>
+        variants={fadeInVariantsDelay}>
         <Table className='table' variant='striped'>
           <Thead>
             <Tr>

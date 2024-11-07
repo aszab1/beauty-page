@@ -2,6 +2,11 @@ import { useState, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import salon from '../assets/images/stock-photo1.webp'
 import dee from '../assets/images/dee.jpeg'
+import fadeInVariants from '../assets/fadeInVariants'
+
+
+
+
 
 export default function Home() {
 
@@ -13,10 +18,6 @@ export default function Home() {
   
   const [isLoaded, setIsLoaded] = useState(false)
 
-  const fadeInVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 2, ease: 'easeInOut' } }
-  }
   
 
   return (
