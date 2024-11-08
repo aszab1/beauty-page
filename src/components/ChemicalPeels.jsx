@@ -46,6 +46,7 @@ export default function ChemicalPeels() {
         </motion.div>
 
       </section>
+      
       <motion.section ref={infiniRef}
         className='infinity'
         initial='hidden'
@@ -55,8 +56,9 @@ export default function ChemicalPeels() {
         <p>Innovative medical-grade chemical stimulator combining trichloroacetic, kojic, and mandelic acids for deep skin revitalization. This treatment intensively rejuvenates without damaging the outer layers of skin or compromising photoprotective structures, making it safe for year-round use.
           <br />It is recommended to add either LED Light Therapy and/or Jelly mask to calm the skin and speed up the healing process. </p>
       </motion.section>
+  
 
-      <h4 style={{ marginBottom: '1.5em', textAlign: 'center' }}>Chemical Peels FAQs</h4>
+      <h4 style={{ marginBottom: '1.5em', textAlign: 'center', marginTop: '1em' }}>Chemical Peels FAQs</h4>
 
       <AccordionFunction items={chemPeelItems} />
 

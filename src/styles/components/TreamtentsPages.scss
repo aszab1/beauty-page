@@ -1,14 +1,15 @@
-.peel-div{
-  margin: 15em 5em;
-  text-align: justify;
-}
-
 .section {
   display: flex;
   flex-direction: row;
 }
 
-.peel {
+.peel-div, .fatdis-info, .micro-info{
+  margin: 15em 5em 5em;
+  text-align: justify;
+}
+
+
+.peel, .micro, .fatdissolving {
   width: 700px;
   height: 800px;
 }
@@ -19,7 +20,7 @@
   color: #8d2bc0;
 }
 
-.infinity{
+.infinity, .fatdis-options{
   margin: 8em 4em;
   text-align: left;
 }
@@ -50,6 +51,9 @@
   margin: 0 3px 3px 0;
 }
 
-
+.product-info {
+  margin: 5em;
+  text-align: left;
+}
 
 

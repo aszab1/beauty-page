@@ -1,9 +1,14 @@
 import jelly from '../assets/images/jellymask.jpg'
 import { products } from '../assets/products'
+import TreatmentInfo from './TreatmentInfoSection'
 
 export default function JellyMasks(){
 
   const jellies = products.filter(product => product.name == 'HYPERBOOST JELLY MASKS')
+
+  const JelliesInfo = [
+    { time: '', downtime: '', results: '', lasts: '' }
+  ]
 
   return(
 
@@ -16,6 +21,7 @@ export default function JellyMasks(){
     <p>All masks contain Pectin-rich in Vitamins A & C. <br />
 Pectin binds to moisture helping to keep the skin dewy and fresh, also promotes cell renewal and acts as an anti-ageing product.
 <br/> These masks form a vacuum-like seal that compresses facial contours with an instant cooling, hydrating and lifting effect.</p>
+<TreatmentInfo items={JelliesInfo}/>
 </div>
     </section>
     {jellies.map((product, index) => (
