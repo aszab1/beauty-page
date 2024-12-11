@@ -43,9 +43,14 @@ const router = createBrowserRouter([
         element: <Microneedling />,
       },
       {
-        path: '/skin-boosters',
-        element: <SkinBoosters />,
+        path: '/skin-boosters/face',
+        element: <SkinBoosters id='face' />,
       },
+      {
+        path: '/skin-boosters/eyes',
+        element: <SkinBoosters id='eyes' />,
+      },
+    
       {
         path: '/fat-dissolving',
         element: <FatDissolving />,
